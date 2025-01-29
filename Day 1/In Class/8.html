@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <h2>JavaScript Arrays</h2>
+    <p>Example of more Array methods</p>
+
+    <script>
+        //array
+        var fruits = ["apples", "oranges", "pears", "cherries"];
+        fruits.forEach(myFunction);
+
+        var search = fruits.some(myFunction);
+        function myFunction(fruit) {
+            return fruit.length > 6;
+        }
+
+        document.write("The search returns: " + search);
+        console.log("The search returns: " + search);
+    </script>
+    </body>
+</html>
