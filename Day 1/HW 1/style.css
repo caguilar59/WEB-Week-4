@@ -278,13 +278,26 @@ textarea {
     margin: 15px 0 0 0;
 }
 input[type="submit"] {
-    display: block;
-    margin: 20px 0 10px 600px;
+    display: inline-block;
+    margin: 20px 0 0 600px;
     width: 100px;
     height: 30px;
-    color: #fff;
-    background-color: #4977D1;
-    border: #4288C3;
+    color: #ffffff;
+    /*background-color: #4977D1;*/
+    border: none;
+}
+.randomcode {
+    display: inline;
+    margin: 20px 0px 0px 400px;
+    width: 100px;
+    height: 30px;
+}
+.randomcode #codes{
+    display: inline-block;
+    margin: 20px;
+    background: lightgray;
+    padding: 10px;
+
 }
 
 /*Cliff Cards*/
