@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Third Web Page</title>
+        <link rel="stylesheet" href="style.css">
+        <div id="container">
+            <header style="font-size: 60px; color: #fff;">My Web Site Brand</header>
+        </div>
+    </head>
+    <body>
+        <!--Nav Bar-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">About</a></li>
+                <li><a href="page4.html">Gallery</a></li>
+                <li><a href="page3.html">Contact</a></li>
+            </ul>
+        </nav>
+    <!--Main Content-->
+        <main>
+            <h1>My Third Heading</h1>
+            <p>My Third paragraph</p>
+
+            <!--Form Content-->
+            <form action="/signup" method="post"></form>
+            <fieldset>
+                <legend>User personal information</legend>
+                <label>Enter your full name</label>
+                <input type="text" name="name">
+                <label>Enter your email</label>
+                <input type="email" name="email">
+                <label>Enter your phone</label>
+                <input type="text" name="phone">
+                <label>Select your gender</label>
+                <input type="radio" name="gender" value="male" />Male
+                <input type="radio" name="gender" value="Female" />Female
+                <label>How should we contact you?</label>
+                <select id="contact-method">
+                    <option value="">Select One</option>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                </select>
+                <div id="email-input" class="hidden">
+                    <label>Enter your email</label>
+                    <input type="email" name="email">
+                </div>
+
+                <div id="phone-input" class="hidden">
+                    <label>Enter your phone</label>
+                    <input type="text" name="phone">
+                </div>
+                <label>Tell us the reason of your visit today:</label>
+                <textarea rows="5" cols="30"></textarea>
+                <input type="submit" value="sign-up">
+            </fieldset>
+        </main>
+        <script src="contact.js"></script>
+    </body>
+    <footer>&copy; Copyright 2020</footer>
+</html>
